@@ -1,0 +1,10 @@
+!database/
+
+database/*
+ /database/*
+ **/node_modules/*
+database/dbdata/ibtmp1
+**/.pnpm-store/*
+frontend/.pnpm-store
+frontend/.pnpm-store/v3/files/
+

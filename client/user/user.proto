@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "tokyo/proto";
+
+service UserService {
+    rpc RegisterUser(RegisterUserRequest) returns (RegisterUserResponse);
+    rpc LoginUser(LoginUserRequest) returns (LoginUserResponse);
+   }
+
+message RegisterUserRequest {
+    string prefix = 1;
+    string username = 2;
+    string password = 3;
+}
+
+message RegisterUserResponse {
+    string wallet_id = 1;
+    string message = 2;
+}
+
+message LoginUserRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message LoginUserResponse {
+    string wallet_id = 1;
+    string message = 2;
+}
+
+ 

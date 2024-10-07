@@ -1,0 +1,4 @@
+{$URL_FRONTEND_HOME} {
+  reverse_proxy frontend:3001
+  tls internal
+}
