@@ -37,7 +37,6 @@ export default function Component() {
           <p className="mt-1 text-gray-600">Please login to your account.</p>
         </div>
         <div className="px-6 py-4">
-          <form>
             <div className="mt-4">
               <label className="block text-gray-700" htmlFor="email">
                 Email
@@ -68,7 +67,6 @@ export default function Component() {
                 Login
               </button>
             </div>
-          </form>
         </div>
       </div>
     </div>

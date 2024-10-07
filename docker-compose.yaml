@@ -128,8 +128,8 @@ services:
     image: lscr.io/linuxserver/code-server:latest
     container_name: code-server
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=0
+      - PGID=0
       - TZ=Asia/Bangkok
       - PASSWORD=1688XdAs #optional
       - HASHED_PASSWORD= #optional
